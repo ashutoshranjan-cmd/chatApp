@@ -7,7 +7,7 @@ import Message from './Message/Message'
 import cross from '../src/closeIcon.png'
 import ReactScrolllToBottom from 'react-scroll-to-bottom'
 import './chat.css'
-const ENDPOINT = "https://cchat-api.vercel.app/"
+const ENDPOINT = "https://cchat-8vsej5z1z-ashutoshranjan-cmds-projects.vercel.app/"
 let socket;
 const Chat = () => {
     const [messageData, setMessageData] = useState("");
