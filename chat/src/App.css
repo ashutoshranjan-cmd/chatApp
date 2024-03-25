@@ -1,0 +1,61 @@
+@media (max-aspect-ratio:7/10)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .JoinContainer{
+        width: 100% !important;
+        /* border: 2px solid white; */
+    }
+    .JoinContainer img{
+        width: 30vw !important;
+    }
+    .JoinContainer h1{
+        font-size: 2.5rem;
+        width: 55vw !important;
+        /* border: 0.2vmax solid white; */
+        text-align: center;
+        padding: 1vmax;
+        ;
+    }
+    .chatcontainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .header{
+        height: 10% !important;
+    
+    }
+    .header h2{
+        margin: 8vw !important;
+        font-size: 6vw !important;
+    }
+    .header img{
+        margin: 6vw !important;
+        transform: scale(2) !important;
+    }
+    .chatbox{
+        height: 80% !important;
+    }
+    .inputbox{
+        height: 10% !important;
+
+    }
+    #chatinput{
+        padding: 2vmax;
+        font-size: 1.2rem;
+    }
+    .sendbtn img{
+        height: 2rem !important;
+    }
+    .messagebox{
+        padding:3vw !important;
+        margin: 3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 2.5vmax;
+    }
+}
