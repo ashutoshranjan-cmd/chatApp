@@ -6,7 +6,7 @@ import Chat from './Chat'
 import './App.css'
 
 
-const ENDPOINT = "https://chat-app-api-rust.vercel.app/";
+const ENDPOINT = "https://chat-app-api-theta.vercel.app/";
 const socket = socketIO(ENDPOINT,{transports:["websocket"]});
 function App() {
   // const [count, setCount] = useState(0)
