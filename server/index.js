@@ -11,10 +11,17 @@ import { Socket } from "dgram";
 const app = express();
 const server = http.createServer(app)
 
-const io = new  Server(server);
+// const io = new  Server(server);
+const io = new Server(server,{
+    cors:{
+        origin:"http://localhost:5173",
+        methods:["GET","POST"],
+        credentials:true,
+    },
+});
 const port = 3000 || process.env.PORT;
 const users = [{}]
-app.use(cors());
+// app.use(cors());
 app.get("/",(req,res)=>{
 
     res.send("Hell its working fine ")
